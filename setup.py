@@ -11,7 +11,8 @@ setup(
   name='goodvibes',
   packages=['goodvibes'],
   version='3.1.0',
-  description='A python program to compute corrections to thermochemical data from frequency calculations',
+  license='MIT',
+  description='A Python program to compute corrections to thermochemical data from frequency calculations',
   long_description=long_description,
   long_description_content_type='text/markdown',
   author='Paton Research Group',
@@ -20,7 +21,7 @@ setup(
   download_url='https://github.com/bobbypaton/GoodVibes/archive/v3.0.1.zip',
   keywords=['compchem', 'thermochemistry', 'gaussian', 'vibrational-entropies', 'temperature'],
   classifiers=[],
-  install_requires=["numpy>=1.14.2", ],
+  install_requires=["numpy", ],
   python_requires='>=2.6',
   include_package_data=True,
 )
